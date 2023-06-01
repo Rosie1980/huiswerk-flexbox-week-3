@@ -1,1 +1,9 @@
 /*Schrijf hier jouw CSS*/
+
+.opdracht-1 {
+    display: flex;
+}
+li {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
