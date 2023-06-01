@@ -1,9 +1,8 @@
 /*Schrijf hier jouw CSS*/
 
-.opdracht-1 {
+.opdracht-1 ul {
     display: flex;
-}
-li {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
