@@ -17,4 +17,46 @@
 .opdracht-3 ul {
     display: flex;
     flex-direction: row;
+    justify-content:space-between;
+}
+.top-left {
+    align-self: flex-start;
+}
+.centered {
+    align-self: center;
+}
+.bottom-right{
+    align-self: flex-end;
+}
+
+.opdracht-4 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.opdracht-5 div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-5 li {
+    border-color: red;
+}
+
+.opdracht-5 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column-1 {
+    align-items: flex-start;
+}
+.column-2 {
+    align-items: center;
+}
+.column-3 {
+    align-items: flex-end;
+
 }
