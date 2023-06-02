@@ -17,7 +17,7 @@
 .opdracht-3 ul {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 .top-left {
     align-self: flex-start;
